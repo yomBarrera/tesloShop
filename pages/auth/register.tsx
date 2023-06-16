@@ -9,7 +9,7 @@ import { Box, Button, Chip, Grid, Link, TextField, Typography } from "@mui/mater
 import { ErrorOutlined } from '@mui/icons-material';
 
 import { AuthContext } from '@/context';
-import { tesloApi } from '@/api';
+import { tesloApi } from '@/axiosApi';
 import { AuthLayout } from "@/components/layouts"
 import { validations } from '@/utils';
 
